@@ -11,3 +11,6 @@ My idea for state quiz is as follows:
 3. Given an individual state, guess the capital
 4. GIS (given an individual state), guess the year it was founded
 5. GIS, guess the senator(s)
+
+
+I also want to have information on the answers, if you want to know more about so-and-so, click here.. 

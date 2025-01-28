@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>United States Quiz</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta name="color-scheme" content="light dark"/>
+
+    <link rel="icon" type="image/png" href="img/flag-usa-solid.svg" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="img/flag-usa-solid-white.svg" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <main>
+
+        <article id="quiz-section" class="hide"></article>
+        
+        <article>
+            <h2>Test your knowledge of the United States!</h2>
+
+            <div id="question-container">
+                <p id="question">Question will appear here</p>
+                <div id="answer-buttons" class="btn-container">
+                    <!-- Answer buttons will be dynamically added here -->
+                </div>
+            </div>
+
+            <button id="next-button" class="btn hide">Next</button>
+            <p id="counter">Correct Answers: 0</p>
+        </article>
+
+        <article id="quiz-options">
+            <h2>Select Quiz Type</h2>
+            <div class="btn-container">
+                <button class="btn" id="easy-quiz">Easy</button>
+                <button class="btn" id="medium-quiz">Medium</button>
+                <button class="btn" id="hard-quiz">Hard</button>
+                <button class="btn" id="extreme-quiz">Extreme</button>
+            </div>
+
+            <div class="btn-container">
+                <button class="btn" id="state-name-quiz">Guess the State Name</button>
+                <button class="btn" id="state-capital-quiz">Guess the State Capital</button>
+                <button class="btn" id="state-founded-quiz">Guess the Year Founded</button>
+                <button class="btn" id="state-senators-quiz">Guess the Senator(s)</button>
+            </div>
+        </article>
+
+    </main>
+
+    <footer>
+        <p>Created by <a href="https://www.mattbramer.com" target="_blank">Matt Bramer</a></p>
+        <p>Code on <a href="https://github.com/bramermatt/state-quiz" target="_blank">GitHub</a></p>
+    </footer>
+
+    <script src="js/game.js"></script>
+
+</body>
+</html>
